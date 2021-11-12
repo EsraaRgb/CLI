@@ -3,6 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Terminal t=new Terminal();
+        t.parser.parse("echo my name is esraa");
+        t.echo(t.parser);
     }
 }
